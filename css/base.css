@@ -32,3 +32,19 @@ body {
     --rr: 'RR', sans-serif;
     --rm: 'RM', sans-serif;
 }
+.btn {
+    padding: 17px 48px;
+    font-family: var(--rm);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    transition: 0, 3s;
+    color: black;
+    background: #F18128;
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background: #040D1F;
+    color: white;
+}
