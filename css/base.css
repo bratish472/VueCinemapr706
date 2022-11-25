@@ -32,6 +32,7 @@ body {
     --rr: 'RR', sans-serif;
     --rm: 'RM', sans-serif;
 }
+
 .btn {
     padding: 17px 48px;
     font-family: var(--rm);
@@ -47,4 +48,20 @@ body {
 .btn:hover {
     background: #040D1F;
     color: white;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    font-family: var(--cm);
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--or);
+    color: var(--or);
+    text-transform: capitalize;
 }
